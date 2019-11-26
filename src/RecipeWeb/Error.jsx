@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Foo = () => {
+const Error = () => {
     return (
         <div>
-            The foo page
+            The error page
         </div>
     )
 }
 
-export default Foo
+export default Error

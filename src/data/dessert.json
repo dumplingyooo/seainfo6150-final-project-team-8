@@ -1,0 +1,130 @@
+[
+    {
+        "id": "Chocolate-Cookie-Icebox",
+        "name": "Chocolate Cookie Icebox",
+        "ingredients": [
+            "3 boxes of Nabisco Famous Chocolate Wafers",
+            "4 cups of whipping cream",
+            "3 tbsp sugar or to taste I don't like mine too sweet",
+            "1 tsp vanilla extract"
+        ],
+        "directions":[
+            "Step 1: Combine the whipping cream, sugar and vanilla in a large bowl. Beat until light and fluffy.",
+            "Step 2: On a large serving platter, swirl a couple of tablespoons of whipped cream onto the plate. This will hold the bottom cookies in place.",
+            "Step 3: Place 8 wafers in a circle on the plate, leaving room to place 4 on top to make a solid layer. ( see the how-to video!)",
+            "Step 4: Top with whipped cream.",
+            "Step 5: Repeat for another 10-11 layers.",
+            "Step 6: Finish with whipped cream on top, then sprinkle with leftover broken cookies. There are always broken cookies.",
+            "Step 7: Wrap lightly with plastic wrap and refrigerate overnight until the next evening.",
+            "Step 8: Remove and slice carefully to serve!"
+        ],
+        "image":{
+            "_url": "https://www.thekitchenmagpie.com/wp-content/uploads/images/2017/06/TheFamousChocolateWaferIceboxCake4.jpg"
+        }
+    },
+
+    {
+        "id": "Rainbow-Cake-Trifle",
+        "name": "Rainbow Cake Trifle",
+        "ingredients": [
+            "one box of white cake mix and ingredients to make it",
+            "food coloring",
+            "3 cups of whipped cream I used Cool Whip",
+            "2 packages of Jello White Chocolate Instant Pudding . prepared according to package instructions."
+        ],
+        "directions":[
+            "Step 1: whip up one white cake mix according to the package instructions, then divide the batter into 6 cups.",
+            "Step 2: Using any cake gels, food coloring or icing gels, color up the white batter.",
+            "Step 3: You are going to make two cakes, so grease up two 8 inch cake tins.",
+            "Step 4: Pour half of your red batter into the first one, reserving half for the second cake. Do not push it around, just let it move out naturally to the edges.",
+            "Step 5: Pour the orange right in the middle of the red (again, only half of your batter, save half for the second cake) and that's going to push the red even closer to the edge.",
+            "Step 6: Keep going with the yellow, green, blue and purple, pout half of each into the very middle until you see a cake like below.",
+            "Step 7: Tap the pan on the table or counter lightly to remove bubbles.",
+            "Step 8: Bake the cakes according to the package instructions, cool and remove. You can at this point freeze them if you aren't making the trifle right away.",
+            "Step 9: Prepare the pudding mixes according to the package instructions and let set.",
+            "Step 10: To make each layer, place the cake layers down, put a third of the white chocolate pudding on top, then a third of the whipped cream. Then start another cake layer and repeat two more times.",
+            "Step 11: Top the whipped cream with leftover rainbow cake crumbs.",
+            "Step 12: Refrigerate at least 6 hours but it's far better if you make this the day before and refrigerate it overnight."
+            
+        ],
+        "image":{
+            "_url": "https://www.thekitchenmagpie.com/wp-content/uploads/images/2014/04/rainbowtrifle4.jpg"
+        }
+    },
+
+    {   
+        "id": "Chocolate-Covered-Ritz",
+        "name": "Chocolate Covered Ritz",
+        "ingredients": [
+            "2 cups of chocolate chips",
+            "1/3 tsp mint flavoring",
+            "box of Ritz crackers",
+            "1 peppermint candy cane crushed"
+        ],
+        "directions":[
+            "Step 1: Line two or three large baking sheets with waxed paper or parchment paper.",
+            "Step 2: Melt your chocolate chips in a large glass Pyrex measuring glass ( or similar microwave safe glass).",
+            "Step 3: Stir in your mint flavoring and get ready to dip!",
+            "Step 4: Dip each cracker until they are covered in chocolate then place on the wax paper. The number of treats you end up with depend on if you are a heavy dipper or a light dipper.",
+            "Step 5: Once the dipping is done, time to sprinkle with the crushed candy canes.",
+            "Step 6: Let the chocolate harden the store in a closed container for 4-5 days on the counter or freezer for up to two months."
+        ],
+        "image":{
+            "_url": "https://www.thekitchenmagpie.com/wp-content/uploads/images/2009/12/8_600x450-600x445.jpg"
+        }
+    },
+
+    {
+        "id": "Brown-Butter-Chocolate-Chip-Cookies",
+        "name": "Brown Butter Chocolate Chip Cookies",
+        "ingredients": [
+            "2 1/4 cups all purpose flour",
+            "1 tsp baking soda",
+            "3/4 cup butter",
+            "1 tsp salt use 1/2 tsp if you are using salted butter",
+            "1 cup of packed brown sugar",
+            "1/2 cup granulated sugar",
+            "2 tsp vanilla",
+            "2 eggs",
+            "2 cups semi-sweet chocolate chips",
+            "2-3 tsp sea salt flakes"
+        ],
+        "directions":[
+            "Step 1: Preheat your oven to 350 °Get out your baking sheets and line with parchment paper.",
+            "Step 2: Place the butter in a small saucepan. Get a heat proof spare bowl ready beside you. Heat up over medium heat, stirring and swirling the butter. Once the butter stars to foam, it will quickly turn golden brown. Once you see the butter turn golden brown, instantly remove it from the heat and pour it into the waiting bowl - this stops the cooking process.",
+            "Step 3: Let the butter cool down.",
+            "Step 4: Once the butter is cooled, beat together your butter and sugar until it’s light and fluffy. Add in the eggs and vanilla, mixing thoroughly.",
+            "Step 5: Whisk together the dry ingredients ,then beat them into the butter mixture until combined completely.",
+            "Step 6: When that is done, fold in the two cups of chocolate chips by hand, and prepare to put them on the parchment paper lined cookie sheets.",
+            "Step 7: Drop by rounded heaping teaspoonful onto the baking sheets. Sprinkle with sea salt.",
+            "Step 8: Bake at 350 degrees for 10-12 minutes, until golden brown and slightly underdone. Cool on the sheets completely. Store in closed containers"
+        ],
+        "image":{
+            "_url": "https://www.thekitchenmagpie.com/wp-content/uploads/images/2019/07/TheBestBrownButterChocolateChipCookies3.jpg"
+        }
+    },
+
+    {
+        "id": "Red-White-and-Blueberry-Pie-Marshmallow-Fluff",
+        "name": "Red White and Blueberry Pie Marshmallow Fluff",
+        "ingredients": [
+            "1 cup whipping cream",
+            "1 tbsp granulated sugar",
+            "1/2 tsp vanilla extract",
+            "1 cup lemon yogurt",
+            "1 20 ounce can blueberry pie filling",
+            "3 cups miniature white marshmallows",
+            "spray can of whipped cream or whipped cream",
+            "20 maraschino cherries"
+        ],
+        "directions":[
+            "Step 1: Pour the whipping cream into a large bowl. Using a stand mixer or a hand mixer, beat the whipping cream until it forms soft peaks. Stop the mixer and add in the sugar and vanilla. Continue beating again until stiffer peaks form, another minute or two,  then stop.",
+            "Step 2: Fold in the yogurt completely, then add in the blueberry pie filling. Mix gently until the filling is completely mixed in.",
+            "Step 3: Stir in the marshmallows, then cover with plastic wrap and refrigerate for at least 3 hours.",
+            "Step 4: To top, place dollops of whipping cream on top and place a cherry in each one. Serve right away. "
+        ],
+        "image":{
+            "_url": "https://www.thekitchenmagpie.com/wp-content/uploads/images/2018/06/RedWhiteandBlueberryPieMarshmallowFluff.jpg"
+        }
+    }
+]
