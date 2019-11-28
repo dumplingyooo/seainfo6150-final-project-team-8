@@ -4,7 +4,7 @@ import allCategories from './RecipeWeb/AllRecipe';
 import Homepage from './RecipeWeb/Homepage.jsx';
 import AddRecipe from './RecipeWeb/AddRecipe.jsx';
 import Analyse from './RecipeWeb/Detail';
-import contactus from './RecipeWeb/contactus';
+import contactus from './RecipeWeb/contactus.jsx';
 import about from './RecipeWeb/about';
 import Error from './RecipeWeb/Error';
 import IndividualPage from './RecipeWeb/RecipePage';
