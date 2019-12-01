@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./AddRecipe.module.css";
+import styles from "./css/AddRecipe.module.css";
 import {Link} from "react-router-dom";
 
 class AddRecipe extends React.Component {

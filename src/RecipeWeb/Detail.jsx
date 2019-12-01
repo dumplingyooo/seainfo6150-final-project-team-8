@@ -1,19 +1,44 @@
 import React from "react";
+import styles from "./css/Detail.module.css";
 const appetizerParams = require('../data/appetizer.json');
 const mainParams = require('../data/main.json');
 const dessertParams = require('../data/dessert.json');
 
 
 export const Detail = ({item, back}) => {
+
+    const ingredients = [];
+    for(const [index,value] of item.ingredients.entries()){
+        ingredients.push(
+        <li key={index}>
+            <label>
+                <input type="checkbox" class={styles.cb}/>
+                <span class={styles.mark}></span>
+                <span class={styles.con}>{value}</span>
+            </label>
+        </li>);
+    }
+
+    const instructions = [];
+    for(const [index, value] of item.directions.entries()){
+        instructions.push(<li key={index}>
+            <label>
+                <input type="checkbox" class={styles.cb}/>
+                <span class={styles.mark}></span>
+                <span class={styles.con}>{value}</span>
+            </label>
+        </li>);
+    }
+
     return(
         <div>
             <div>
                 <h4>{item.name}</h4>
                 <img src={item.image._url} alt={item.name}/>
                 <h5>Ingredients</h5>
-                <p>{item.ingredients}</p>
+                <p>{ingredients}</p>
                 <h5>Instructions</h5>
-                <p>{item.directions}</p>
+                <p>{instructions}</p>
             </div>
         </div>
     );

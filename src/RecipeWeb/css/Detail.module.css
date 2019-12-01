@@ -1,0 +1,30 @@
+.mark {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid transparent;
+}
+.mark:before {
+content: "";
+display: none;
+position: absolute;
+top:50%;
+left: 25%;
+height: 4px;
+width: 8px;
+border: solid black;
+border-width: 0 0 4px 4px;
+-webkit-transform: rotate(-45deg);
+-moz-transform: rotate(-45deg);
+-ms-transform: rotate(-45deg);
+-o-transform: rotate(-45deg);
+transform: rotate(-45deg);
+}/*画√，这是呈现在页面的钩钩*/
+
+.cb:checked~ .mark:before {
+        display: block;
+    }
+.cb:checked~ .con {
+        text-decoration: line-through;
+    }

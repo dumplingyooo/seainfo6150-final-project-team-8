@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "./Homepage.module.css";
+import styles from "./css/Homepage.module.css";
 import logo from "./logo.jpg";
-import {Link} from "react-router-dom";
+//import {Link} from "react-router-dom";
 
 // const Homepage = () => {
 // 	return (
@@ -11,7 +11,7 @@ import {Link} from "react-router-dom";
 // 					<Link className={styles.link_white} to="/AllCategories">
 // 						<li>All Categories</li>
 // 					</Link>
-// 					<Link className={styles.link_white} to="/AddRecipe">
+// 					<Link className={styles.link_white} to="/AddRecipe"> 
 // 						<li>Add Recipe</li>
 // 					</Link>
 // 				 	<Link className={styles.link_white} to="/About">

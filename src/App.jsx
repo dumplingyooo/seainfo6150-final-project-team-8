@@ -8,17 +8,16 @@ import contactus from './RecipeWeb/contactus.jsx';
 import about from './RecipeWeb/about';
 import Error from './RecipeWeb/Error';
 import IndividualPage from './RecipeWeb/RecipePage';
-
-
+import styles from './App.module.css';
 
 
 function App() {
   return (
     <Router>
       <header>
-        <nav>
+        <nav className={styles.headText}>
           <h1>Cooking Master</h1>
-          <ul>
+          <ul className={styles.square}>
             <li>
               <Link to="/">Home</Link>
             </li>
