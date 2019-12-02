@@ -40,15 +40,15 @@ class AddRecipe extends React.Component {
 					</label>
 					<label className={styles.to_send}>
 					  Title:
-					  <input value={this.state.title} onChange={this.handleChange} name="title"/>
+					  <input required="required" value={this.state.title} onChange={this.handleChange} name="title"/>
 					</label>
 					<label className={styles.to_send}>
 					  Ingredients List:
-					  <textarea value={this.state.ingredients} onChange={this.handleChange} name="ingredients"/>
+					  <textarea required="required" value={this.state.ingredients} onChange={this.handleChange} name="ingredients"/>
 					</label>
 					<label className={styles.to_send}>
 					  Instructions:
-					  <textarea value={this.state.instructions} onChange={this.handleChange} name="instructions"/>
+					  <textarea required="required" value={this.state.instructions} onChange={this.handleChange} name="instructions"/>
 					</label>				
 					<input type="submit" value="Add" />
 				</form>
