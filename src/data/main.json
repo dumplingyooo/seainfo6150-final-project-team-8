@@ -21,7 +21,13 @@
             "Add vegetables and lemon juice and toss until combined. Garnish with parsley before serving."
         ],
         "image":{
+<<<<<<< HEAD
             "_url": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-191111-cajun-shrimp-skillet-0142-landscape-pf-1573681014.jpg?crop=0.738xw:0.622xh;0.262xw,0.209xh&resize=768:*"
+=======
+            "_url": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-191111-cajun-shrimp-skillet-0142-landscape-pf-1573681014.jpg?crop=0.738xw:0.622xh;0.262xw,0.209xh&resize=768:*",
+            "_height": "619",
+            "_width": "1100"            
+>>>>>>> 5b40bd41a5b7cec7f9c8e6e431c2c3404ecb9517
         }
     },
 
@@ -50,7 +56,13 @@
             "Add the cooked fettuccine and toss to coat. Fold in the chicken, broccoli, and bacon. Garnish with more parmesan and parsley. "
         ],
         "image":{
+<<<<<<< HEAD
             "_url":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-bacon-broccoli-chicken-alfredo-still002-1573845858.jpg?crop=0.801xw:0.813xh;0.0748xw,0.0785xh&resize=768:*"
+=======
+            "_url":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-bacon-broccoli-chicken-alfredo-still002-1573845858.jpg?crop=0.801xw:0.813xh;0.0748xw,0.0785xh&resize=768:*",
+            "_height": "619",
+            "_width": "1100"            
+>>>>>>> 5b40bd41a5b7cec7f9c8e6e431c2c3404ecb9517
         }
     },
 
@@ -80,7 +92,13 @@
             "Top with shaved Parmesan before serving. "
         ],
         "image":{
+<<<<<<< HEAD
             "_url":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-191907-brown-butter-butternut-squash-pasta-0092-landscape-pf-1564516918.png?crop=0.668xw:1.00xh;0.0272xw,0&resize=768:*"
+=======
+            "_url":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-191907-brown-butter-butternut-squash-pasta-0092-landscape-pf-1564516918.png?crop=0.668xw:1.00xh;0.0272xw,0&resize=768:*",
+            "_height": "619",
+            "_width": "1100"            
+>>>>>>> 5b40bd41a5b7cec7f9c8e6e431c2c3404ecb9517
         }
     },
 
@@ -110,7 +128,13 @@
            "Garnish with more herbs and squeeze lemon on top before serving." 
         ],
         "image":{
+<<<<<<< HEAD
             "_url":"https://www.eatwell101.com/wp-content/uploads/2019/08/tuscan-salmon-recipe.jpg"
+=======
+            "_url":"https://www.eatwell101.com/wp-content/uploads/2019/08/tuscan-salmon-recipe.jpg",
+            "_height": "619",
+            "_width": "1100"            
+>>>>>>> 5b40bd41a5b7cec7f9c8e6e431c2c3404ecb9517
         }
     },
 
@@ -138,7 +162,13 @@
             "Garnish with sesame seeds and serve with rice."
         ],
         "image":{
+<<<<<<< HEAD
             "_url":"https://hips.hearstapps.com/del.h-cdn.co/assets/16/15/1600x1066/gallery-1460663972-delish-stir-fry-beef-broccoli.jpg?resize=768:*"
+=======
+            "_url":"https://hips.hearstapps.com/del.h-cdn.co/assets/16/15/1600x1066/gallery-1460663972-delish-stir-fry-beef-broccoli.jpg?resize=768:*",
+            "_height": "619",
+            "_width": "1100"            
+>>>>>>> 5b40bd41a5b7cec7f9c8e6e431c2c3404ecb9517
         }
     }
 ]

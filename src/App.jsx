@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+<<<<<<< HEAD
 import allCategories from './RecipeWeb/AllRecipe';
 import Homepage from './RecipeWeb/Homepage.jsx';
 import AddRecipe from './RecipeWeb/AddRecipe.jsx';
@@ -10,12 +11,24 @@ import Error from './RecipeWeb/Error';
 import IndividualPage from './RecipeWeb/RecipePage';
 
 
+=======
+import allCategories from './RecipeWeb/AllCategories';
+import Homepage from './RecipeWeb/Homepage.jsx';
+import AddRecipe from './RecipeWeb/AddRecipe.jsx';
+import Analyse from './RecipeWeb/Detail';
+import contactus from './RecipeWeb/contactus.jsx';
+import about from './RecipeWeb/about';
+import Error from './RecipeWeb/Error';
+import IndividualPage from './RecipeWeb/RecipePage';
+import styles from './App.module.css';
+>>>>>>> 5b40bd41a5b7cec7f9c8e6e431c2c3404ecb9517
 
 
 function App() {
   return (
     <Router>
       <header>
+<<<<<<< HEAD
         <nav>
           <h1>Cooking Master</h1>
           <ul>
@@ -36,6 +49,26 @@ function App() {
             </li>
           </ul>
         </nav>
+=======
+          <h1>Cooking Master</h1>
+          <ul className={styles.nav}>
+            <li>
+              <Link className={styles.link_white} to="/">Home</Link>
+            </li>
+            <li>
+              <Link className={styles.link_white} to="/AllCategories">All Categories</Link>
+            </li>
+            <li>
+              <Link className={styles.link_white} to="/AddRecipe">Add Recipe</Link>
+            </li>
+            <li>
+              <Link className={styles.link_white} to="/Contact">Contact</Link>
+            </li>
+            <li>
+              <Link className={styles.link_white}to="/About">About</Link>
+            </li>
+          </ul>
+>>>>>>> 5b40bd41a5b7cec7f9c8e6e431c2c3404ecb9517
       </header>
       {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
