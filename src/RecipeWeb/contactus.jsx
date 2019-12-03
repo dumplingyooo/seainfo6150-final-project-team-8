@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "./css/AddRecipe.module.css";
+import styles from "./css/contactus.module.css";
 
 class contactus extends React.Component {
     constructor(){
@@ -24,17 +24,17 @@ class contactus extends React.Component {
 
     render(){
         return (
-            <div>
-                <h3>Contact Us</h3>
+            <div className={styles.body}>
+                <h3 className={styles.contacttitle}>Contact Us</h3>
                 <div>
-                    <form onSubmit={this.handleSubmit}>
+                    <form className={styles.form} onSubmit={this.handleSubmit}>
                         <label>
                             Prefer Name:
-                            <input required="required" value={this.state.username} onChange={this.handleChange} name="username" placeholder="type your name" maxLength="10"/>
+                            <input required="required" type="name" value={this.state.username} onChange={this.handleChange} name="username" placeholder="enter your name" maxLength="10"/>
                         </label><br />
                         <label>
                             E-mail:
-                            <input required="required" type="email" name="email" placeholder="Please input your email" />
+                            <input required="required" type="email" name="email" placeholder="enter your email" />
                         </label><br />
                         <label>
                             Select gender:<br />
@@ -54,17 +54,18 @@ class contactus extends React.Component {
                             Cooking Questions<br />
                             <textarea value={this.state.advice} onChange={this.handleChange} name="advice" rows="10" cols="30">Plese write down what you want to tell us here!</textarea>
                         </label>
-                        <input type="submit" value="Add" />
+                        <br/>
+                        <input className={styles.button} type="submit" value="Add" />
                     </form>
                 </div>
-                <div>
+                <div className={styles.letter}>
                     <p>Site and Technical Questions</p>
                     <p>Questions about site content, features, technical issues, recipe errors, membership and billing:</p>
                     <p>xxxxx@xxxx.xxx</p>
-                </div>
                 <div>
                 <p>Our Address</p>
                 <p>xxxxxxxx</p>
+                </div>
                 </div>
             </div>
         );

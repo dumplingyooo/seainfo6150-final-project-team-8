@@ -5,11 +5,12 @@ import {Link} from "react-router-dom";
 
 const Error = () => {
     return (
-        <div>
+        <div className={styles.body}>
             <p>Oops!</p>
             <p>We can't seem to find the page you're looking for.</p>
             <p>Error code: 404</p>
             <p>Here are some helpful links instead:</p>
+            <img className={styles.img} src={error} alt="404" title="404"></img>
             <p>
             <Link className={styles.link_blue} to="/">
 					Return to home
@@ -28,7 +29,7 @@ const Error = () => {
 					Return to dessert
 			</Link>
             </p>
-            <img src={error} alt="404" title="404"></img>
+
         </div>
     )
 }
