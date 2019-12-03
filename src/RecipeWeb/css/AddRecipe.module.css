@@ -1,37 +1,49 @@
-.header {
-	border: 2px solid gray;
-	height: 20vh;
-	font-weight: bold;
-	font-size: 2em;
-}
-
 .add_form {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
-}
-
-.link_blue {
-	color: blue;
+	width: 50%;
 }
 
 #add_recipe_page {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
-	width: 70vw;
-	background: white;
+	background: #FAD8B0;
+	align-items: center;
+	min-height: 75%;
+	color: white;
 }
 
 .to_send {
 	display: flex;
 	flex-direction: column;	
 	align-items: center;
-	height: 10vh;
-	weight: 30vw;
+	width: 50vw;
 }
 
-input {
-	width: 6vw;
+label > input {
+ 	width: 50%;
 }
+
+textarea {
+	width: 50%;
+	height: 10vh;
+}
+
+select {
+	width: 50%;
+}
+
+.form_item {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form_item li {
+	margin-top: 1vh;
+	color: white;
+}
+

@@ -33,10 +33,8 @@ import logo from "./logo.jpg";
 const Homepage = () => {
 	return (
 		<div className={styles.homepage}>
-			<div className={styles.nav}>
-				<div className={styles.logo}>
-					<img className={styles.img} src={logo} alt="logo" title="logo"></img>
-				</div>
+			<div className={styles.logo}>
+				<img className={styles.img} src={logo} alt="logo" title="logo"></img>
 			</div>
 		</div>
 	);

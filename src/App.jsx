@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import allCategories from './RecipeWeb/AllRecipe';
+import allCategories from './RecipeWeb/AllCategories';
 import Homepage from './RecipeWeb/Homepage.jsx';
 import AddRecipe from './RecipeWeb/AddRecipe.jsx';
 import Analyse from './RecipeWeb/Detail';
@@ -15,26 +15,24 @@ function App() {
   return (
     <Router>
       <header>
-        <nav className={styles.headText}>
           <h1>Cooking Master</h1>
-          <ul className={styles.square}>
+          <ul className={styles.nav}>
             <li>
-              <Link to="/">Home</Link>
+              <Link className={styles.link_white} to="/">Home</Link>
             </li>
             <li>
-              <Link to="/AllCategories">All Categories</Link>
+              <Link className={styles.link_white} to="/AllCategories">All Categories</Link>
             </li>
             <li>
-              <Link to="/AddRecipe">Add Recipe</Link>
+              <Link className={styles.link_white} to="/AddRecipe">Add Recipe</Link>
             </li>
             <li>
-              <Link to="/Contact">Contact</Link>
+              <Link className={styles.link_white} to="/Contact">Contact</Link>
             </li>
             <li>
-              <Link to="/About">About</Link>
+              <Link className={styles.link_white}to="/About">About</Link>
             </li>
           </ul>
-        </nav>
       </header>
       {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}

@@ -4,7 +4,6 @@ const appetizerParams = require('../data/appetizer.json');
 const mainParams = require('../data/main.json');
 const dessertParams = require('../data/dessert.json');
 
-
 export const Detail = ({item, back}) => {
 
     const ingredients = [];
@@ -12,29 +11,30 @@ export const Detail = ({item, back}) => {
         ingredients.push(
         <li key={index}>
             <label>
-                <input type="checkbox" class={styles.cb}/>
-                <span class={styles.mark}></span>
-                <span class={styles.con}>{value}</span>
+                <input type="checkbox" className={styles.cb}/>
+                <span className={styles.mark}></span>
+                <span className={styles.con}>{value}</span>
             </label>
-        </li>);
-    }
+        </li>);}
 
     const instructions = [];
+
     for(const [index, value] of item.directions.entries()){
-        instructions.push(<li key={index}>
+        instructions.push(
+        <li key={index}>
             <label>
-                <input type="checkbox" class={styles.cb}/>
-                <span class={styles.mark}></span>
-                <span class={styles.con}>{value}</span>
+                <input type="checkbox" className={styles.cb}/>
+                <span className={styles.mark}></span>
+                <span className={styles.con}>{value}</span>
             </label>
-        </li>);
-    }
+        </li>
+    );}
 
     return(
         <div>
-            <div>
+            <div className={styles.detailPage}>
                 <h4>{item.name}</h4>
-                <img src={item.image._url} alt={item.name}/>
+                <img className={styles.itemImage} src={item.image._url} alt={item.name}/>
                 <h5>Ingredients</h5>
                 <p>{ingredients}</p>
                 <h5>Instructions</h5>
@@ -48,19 +48,15 @@ const Analyse = (props) =>{
     if (props.individual === "appetizer"){
         const item = appetizerParams.find(f => f.id === props.info);
         return <Detail item={item} back={props.individual}/>
-
     }
     if (props.individual === "mainCourse"){
         const item = mainParams.find(f => f.id === props.info);
         return <Detail item={item} back={props.individual}/>
-
     }
     if (props.individual === "dessert"){
         const item = dessertParams.find(f => f.id === props.info);
         return <Detail item={item} back={props.individual}/>
-
     }
-    
 }
 
 

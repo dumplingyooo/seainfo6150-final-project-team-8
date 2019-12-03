@@ -30,7 +30,7 @@ class contactus extends React.Component {
                     <form onSubmit={this.handleSubmit}>
                         <label>
                             Prefer Name:
-                            <input required="required" value={this.state.username} onChange={this.handleChange} name="username" placeholder="type your name" maxlength="10"/>
+                            <input required="required" value={this.state.username} onChange={this.handleChange} name="username" placeholder="type your name" maxLength="10"/>
                         </label><br />
                         <label>
                             E-mail:
