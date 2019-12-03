@@ -1,17 +1,4 @@
 import React from 'react';
-<<<<<<< HEAD
-
-const about = (props) => {
-    return (
-        <div>
-            <h3>About</h3>
-        <div>
-        <p>Our Story</p>
-        </div>
-
-        <div>
-        <p>Latest News</p>
-=======
 import styles from "./css/about.module.css";
 const about = (props) => {
     return (
@@ -75,7 +62,6 @@ const about = (props) => {
             debunked, see)
 
         </p>
->>>>>>> 5b40bd41a5b7cec7f9c8e6e431c2c3404ecb9517
         </div>
         </div>
 

@@ -1,33 +1,4 @@
 import React from 'react';
-<<<<<<< HEAD
-
-const contactus = (props) => {
-    return (
-        <div>
-            <h3>Contact Us</h3>
-            <div>
-                <form>
-                    <label>
-                        Cooking Questions
-                        <input type="text" id="questions" name="questions" placeholder="type your questions"/>
-                    </label>
-                    <button onClick={
-                        ()=>alert(`${props.slug}`)
-                    }>{props.buttonText}</button>
-                </form>
-            </div>
-            <div>
-                <p>Site and Technical Questions</p>
-                <p>Questions about site content, features, technical issues, recipe errors, membership and billing:</p>
-                <p>xxxxx@xxxx.xxx</p>
-            </div>
-            <div>
-            <p>Our Address</p>
-            <p>xxxxxxxx</p>
-            </div>
-        </div>
-	);
-=======
 import styles from "./css/contactus.module.css";
 
 class contactus extends React.Component {
@@ -99,7 +70,6 @@ class contactus extends React.Component {
             </div>
         );
     }
->>>>>>> 5b40bd41a5b7cec7f9c8e6e431c2c3404ecb9517
 };
 
 export default contactus;

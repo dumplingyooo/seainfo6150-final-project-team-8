@@ -1,9 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-<<<<<<< HEAD
-=======
 import styles from "./css/RecipePage.module.css";
->>>>>>> 5b40bd41a5b7cec7f9c8e6e431c2c3404ecb9517
 const appetizerParams = require('../data/appetizer.json');
 const mainParams = require('../data/main.json');
 const dessertParams = require('../data/dessert.json');
@@ -57,18 +54,6 @@ const dessertParams = require('../data/dessert.json');
 
 export const RecipePage  = ({head, paras}) => {
 	return(
-<<<<<<< HEAD
-		<div>
-			<h3>{head}</h3>
-			<div>This is {head}!</div>
-			<div>
-				{paras.map(para =>(
-					<Link to={`/AllCategories/${head}/${para.id}`} >
-					<div>{para.name}</div>
-					</Link>
-				))}
-			</div>
-=======
 		<div className={styles.recipePage}>
 			<h3>{head}</h3>
 			<div className={styles.allRecipes}>
@@ -82,7 +67,6 @@ export const RecipePage  = ({head, paras}) => {
 				))}
 			</div>
 			{/*<div>This is {head}!</div>*/}
->>>>>>> 5b40bd41a5b7cec7f9c8e6e431c2c3404ecb9517
 		</div>
 	)
 }
