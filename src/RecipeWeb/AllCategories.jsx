@@ -7,28 +7,43 @@ import mainCourse from "./css/mainCourse.jpg";
 const allCategories = () => {
   return(
           <div className={styles.allCategoriesPage}>
-          <h3>All Categories</h3>
-          <div className={styles.allCategories}>
-            <div className={styles.individualCategory}>
-            <a href="/AllCategories/appetizer"><img className={styles.img} src={appetizer} alt="appetizer" title="appetizer"></img></a>
-              <Link  className={styles.link} to="/AllCategories/appetizer" >
-                <div>Appetizer</div>
-              </Link>
+            <h3>All Categories</h3>
+            <div className={styles.allCategories}>
+              <div className={styles.individualCategory}>
+                <div className={styles.divcss5}>
+                  <img src={appetizer} alt="appetizer" title="appetizer"></img>
+                  <a href="/AllCategories/appetizer" className={styles.now}></a>
+                  <span>See Appetizer</span>
+                </div>
+                
+                <Link  className={styles.link} to="/AllCategories/appetizer" >
+                  <div>Appetizer</div>
+                </Link>
+              </div>
+
+              <div className={styles.individualCategory}>
+                <div className={styles.divcss5}>
+                  <img src={mainCourse} alt="mainCourse" title="mainCourse"></img>
+                  <a href="/AllCategories/mainCourse" className={styles.now}></a>
+                  <span>See MainCourse</span>
+                </div>
+                <Link  className={styles.link} to="/AllCategories/mainCourse" >
+                  <div>Main Course</div>
+                </Link>
+              </div>
+
+              <div className={styles.individualCategory}>
+                <div className={styles.divcss5}>
+                  <img className={styles.img} src={dessert} alt="dessert" title="dessert"></img>
+                  <a href="/AllCategories/dessert" className={styles.now}></a>
+                  <span>See Desserts</span>
+                </div>
+                <Link  className={styles.link} to="/AllCategories/dessert" >
+                  <div>Desserts</div>
+                </Link>
+              </div>
+
             </div>
-            <div className={styles.individualCategory}>
-            <a href="/AllCategories/mainCourse"><img className={styles.img} src={mainCourse} alt="mainCourse" title="mainCourse"></img></a>
-              <Link  className={styles.link} to="/AllCategories/mainCourse" >
-                <div>Main Course</div>
-              </Link>
-            </div>
-            <div className={styles.individualCategory}>
-            <a href="/AllCategories/dessert"><img className={styles.img} src={dessert} alt="dessert" title="dessert"></img></a>
-              <Link  className={styles.link} to="/AllCategories/dessert" >
-                <div>Desserts</div>
-              </Link>
-            </div>
-          </div>
-          {/*<div>These are all categories.</div>*/}
         </div>
   )
 }
