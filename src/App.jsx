@@ -28,7 +28,6 @@ function App() {
   return (
     <Router>
       <header>
-<<<<<<< HEAD
         <nav>
           <h1>Cooking Master</h1>
           <ul>
@@ -49,7 +48,6 @@ function App() {
             </li>
           </ul>
         </nav>
-=======
           <h1>Cooking Master</h1>
           <ul className={styles.nav}>
             <li>
@@ -68,7 +66,6 @@ function App() {
               <Link className={styles.link_white}to="/About">About</Link>
             </li>
           </ul>
->>>>>>> 5b40bd41a5b7cec7f9c8e6e431c2c3404ecb9517
       </header>
       {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
