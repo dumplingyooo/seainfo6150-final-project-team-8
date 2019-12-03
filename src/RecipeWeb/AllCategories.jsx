@@ -10,19 +10,19 @@ const allCategories = () => {
           <h3>All Categories</h3>
           <div className={styles.allCategories}>
             <div className={styles.individualCategory}>
-              <img className={styles.img} src={appetizer} alt="appetizer" title="appetizer"></img>
+            <a href="/AllCategories/appetizer"><img className={styles.img} src={appetizer} alt="appetizer" title="appetizer"></img></a>
               <Link  className={styles.link} to="/AllCategories/appetizer" >
                 <div>Appetizer</div>
               </Link>
             </div>
             <div className={styles.individualCategory}>
-              <img className={styles.img} src={mainCourse} alt="mainCourse" title="mainCourse"></img>
+            <a href="/AllCategories/mainCourse"><img className={styles.img} src={mainCourse} alt="mainCourse" title="mainCourse"></img></a>
               <Link  className={styles.link} to="/AllCategories/mainCourse" >
                 <div>Main Course</div>
               </Link>
             </div>
             <div className={styles.individualCategory}>
-              <img className={styles.img} src={dessert} alt="dessert" title="dessert"></img>
+            <a href="/AllCategories/dessert"><img className={styles.img} src={dessert} alt="dessert" title="dessert"></img></a>
               <Link  className={styles.link} to="/AllCategories/dessert" >
                 <div>Desserts</div>
               </Link>

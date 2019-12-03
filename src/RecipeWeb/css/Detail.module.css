@@ -21,7 +21,7 @@
 	-ms-transform: rotate(-45deg);
 	-o-transform: rotate(-45deg);
 	transform: rotate(-45deg);
-}/*画√，这是呈现在页面的钩钩*/
+}/*draw √*/
 
 .cb:checked~ .mark:before {
     display: block;
