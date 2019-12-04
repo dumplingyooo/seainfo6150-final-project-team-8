@@ -24,7 +24,7 @@ class contactus extends React.Component {
 
     render(){
         return (
-            <div className={styles.body}>
+            <div className={styles.contactbody}>
                 <h3 className={styles.contacttitle}>Contact Us</h3>
                 <div>
                     <form className={styles.form} onSubmit={this.handleSubmit}>
@@ -38,8 +38,8 @@ class contactus extends React.Component {
                         </label><br />
                         <label>
                             Select gender:<br />
-                            <label>male<input type="radio" name="gender"/></label>
-                            <label>female<input type="radio" name="gender"/></label>
+                            <label>male<input type="radio" name="gender"/></label><br />
+                            <label>female<input type="radio" name="gender"/></label><br />
                             <label>secret<input type="radio" name="gender"/></label>
                         </label><br />
                         <label>
