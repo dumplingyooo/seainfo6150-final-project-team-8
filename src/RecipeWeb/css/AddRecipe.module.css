@@ -12,8 +12,10 @@
 	background: #FAD8B0;
 	align-items: center;
 	min-height: 75%;
-	color:black;
+
 	font-size: 22px;
+	color: lightslategray;
+	font-family: Optima;
 }
 
 .to_send {
@@ -45,6 +47,7 @@ select {
 
 .form_item li {
 	margin-top: 1vh;
-	color: black;
+	color: lightslategray;
+	font-family: Optima;
 }
 

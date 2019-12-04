@@ -3,12 +3,17 @@
     flex-direction: column;
     align-items: center;
     line-height: 30px;
-
+    font-size: 22px;
     background-color: #FAD8B0;
+    color: lightslategray;
+    font-family: Optima;
+}
+.form{
+    font-family: Optima;
 }
 .letter{
 border-style: dotted;
-
+    font-family: Optima;
 }
 
 .button{
@@ -17,14 +22,14 @@ border-style: dotted;
 }
 
 textarea{
-    max-width: 80%;
+    max-width: 100%;
 }
 input[type="email"] {
     max-width: 100%;
 }
 
 input[type="name"] {
-    max-width: 90%;
+    max-width: 70%;
 }
 .contacttitle{
     /*font-size: small;*/

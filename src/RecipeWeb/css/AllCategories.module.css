@@ -4,8 +4,11 @@
 	align-items: center;
 	background: #FAD8B0;
 	min-height: 75%;
-	color: black;
+
 	font-size:22px;
+
+	color: lightslategray;
+	font-family: Optima;
 }
 
 .allCategories {
@@ -23,7 +26,8 @@
 }
 
 .link {
-	color: black;
+	color: lightslategray;
+	font-family: Optima;
 	text-decoration: none;
 	font-weight: bold;
 }
