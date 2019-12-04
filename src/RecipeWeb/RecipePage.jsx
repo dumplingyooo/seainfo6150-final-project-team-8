@@ -62,7 +62,7 @@ export const RecipePage  = ({head, paras}) => {
 						<div className={styles.divcss5}>
 							<img className={styles.img} src={para.image._url} alt="name" title="name"></img>
 							<a href={`/AllCategories/${head}/${para.id}`} className={styles.now}>&nbsp;</a>
-							<span>See {para.id}</span>
+							<span>See {para.name}</span>
 						</div>
 						<Link className={styles.link} to={`/AllCategories/${head}/${para.id}`}>
 						<div>{para.name}</div>
