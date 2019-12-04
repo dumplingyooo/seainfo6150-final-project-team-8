@@ -12,7 +12,7 @@ const allCategories = () => {
               <div className={styles.individualCategory}>
                 <div className={styles.divcss5}>
                   <img src={appetizer} alt="appetizer" title="appetizer"></img>
-                  <a href="/AllCategories/appetizer" className={styles.now}></a>
+                  <a href="/AllCategories/appetizer" className={styles.now}>&nbsp;</a>
                   <span>See Appetizer</span>
                 </div>
                 
@@ -24,7 +24,7 @@ const allCategories = () => {
               <div className={styles.individualCategory}>
                 <div className={styles.divcss5}>
                   <img src={mainCourse} alt="mainCourse" title="mainCourse"></img>
-                  <a href="/AllCategories/mainCourse" className={styles.now}></a>
+                  <a href="/AllCategories/mainCourse" className={styles.now}>&nbsp;</a>
                   <span>See MainCourse</span>
                 </div>
                 <Link  className={styles.link} to="/AllCategories/mainCourse" >
@@ -35,7 +35,7 @@ const allCategories = () => {
               <div className={styles.individualCategory}>
                 <div className={styles.divcss5}>
                   <img className={styles.img} src={dessert} alt="dessert" title="dessert"></img>
-                  <a href="/AllCategories/dessert" className={styles.now}></a>
+                  <a href="/AllCategories/dessert" className={styles.now}>&nbsp;</a>
                   <span>See Desserts</span>
                 </div>
                 <Link  className={styles.link} to="/AllCategories/dessert" >
