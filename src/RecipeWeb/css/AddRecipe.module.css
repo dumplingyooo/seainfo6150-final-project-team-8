@@ -12,7 +12,8 @@
 	background: #FAD8B0;
 	align-items: center;
 	min-height: 75%;
-	color: white;
+	color:black;
+	font-size: 22px;
 }
 
 .to_send {
@@ -44,6 +45,6 @@ select {
 
 .form_item li {
 	margin-top: 1vh;
-	color: white;
+	color: black;
 }
 

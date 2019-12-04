@@ -55,7 +55,7 @@ const dessertParams = require('../data/dessert.json');
 export const RecipePage  = ({head, paras}) => {
 	return(
 		<div className={styles.recipePage}>
-			<h3>{head}</h3>
+
 			<div className={styles.allRecipes}>
 				{paras.map(para =>(
 					<div className={styles.individualRecipe} key={para.id}>

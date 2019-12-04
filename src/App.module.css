@@ -1,6 +1,7 @@
 header {
     text-align: center;
-    font-family: Didot;
+    font-family: Chalkduster;
+    font-size: 25px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -12,6 +13,7 @@ header {
   list-style-type: none; 
   margin: 0px;
   padding: 0px;
+
 }
 
 .nav li {
