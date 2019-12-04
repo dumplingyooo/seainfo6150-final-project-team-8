@@ -59,7 +59,11 @@ export const RecipePage  = ({head, paras}) => {
 			<div className={styles.allRecipes}>
 				{paras.map(para =>(
 					<div className={styles.individualRecipe} key={para.id}>
-						<a href={`/AllCategories/${head}/${para.id}`}><img className={styles.img} src={para.image._url} alt="name" title="name"></img></a>
+						<div className={styles.divcss5}>
+							<img className={styles.img} src={para.image._url} alt="name" title="name"></img>
+							<a href={`/AllCategories/${head}/${para.id}`} className={styles.now}></a>
+							<span>See {para.id}</span>
+						</div>
 						<Link className={styles.link} to={`/AllCategories/${head}/${para.id}`}>
 						<div>{para.name}</div>
 						</Link>
