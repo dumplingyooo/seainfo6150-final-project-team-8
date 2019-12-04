@@ -2,23 +2,35 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    line-height: 30px;
-    font-size: 22px;
+    line-height: 2em;
     background-color: #FAD8B0;
     color: lightslategray;
     font-family: Optima;
+    height: 100%;
 }
 .form{
     font-family: Optima;
+    width: 60%;
+    font-size: 1em;
+    text-align: center;
 }
+
 .letter{
-border-style: dotted;
+    border-style: dotted;
     font-family: Optima;
+    width:40%;
+    font-size: 1em;
 }
 
+.letter p {
+    margin: 0px;
+    height: auto;
+}
+.bottom {
+    display:flex;
+}
 .button{
-    border-radius: 12px;
-
+    border-radius: 2em;
 }
 
 textarea{
@@ -32,8 +44,10 @@ input[type="name"] {
     max-width: 70%;
 }
 .contacttitle{
-    /*font-size: small;*/
+    text-align: center;
+    height: 20%;
 }
+
 
 /*.upperpart{*/
     /*width:100%;*/
@@ -41,36 +55,40 @@ input[type="name"] {
     /*flex-direction: column;*/
     /*align-items: center;*/
 /*}*/
-@media only screen and (max-width: 320px) {
+
+/* @media only screen and (max-width: 320px) {
 
     [class*="contacttitle"] {
         text-align: center;
 
     }
     [class*="form"] {
-       max-width: 320px;
+        max-width: 60%;
+        max-height: 80%;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
     [class*="root"] {
-
         width:100%;
         margin:0px;
     }
+    [class*="contactbody"] {
+        height: 100%;
+        margin:0px;
+    }
+
+} */
 
 
-}
-
-
-
+/* 
 @media only screen and (min-width: 768px) {
 
     [class*="contacttitle"] {
         text-align: center;
         /*font-size: 22px;*/
-    }
+    /* }
     [class*="letter"] {
 
         font-size: 20px;
@@ -78,12 +96,11 @@ input[type="name"] {
 
     [class*="body"] {
         width: 100%;
-
     }
-}
+} */
 
 
-@media only screen and (min-width: 1024px) {
+/* @media only screen and (min-width: 1024px) {
 
     [class*="contacttitle"] {
         text-align: center;
@@ -97,5 +114,22 @@ input[type="name"] {
     [class*="body"] {
         width: 100%;
 
+    }
+} */
+
+@media only screen and (max-width: 320px) {
+    .bottom {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .bottom {
+        background: #9DC8C8;
+    }
+
+    .bottom {
+        align-items: center;
     }
 }

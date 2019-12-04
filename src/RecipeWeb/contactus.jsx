@@ -24,9 +24,10 @@ class contactus extends React.Component {
 
     render(){
         return (
+
             <div className={styles.contactbody}>
                 <h3 className={styles.contacttitle}>Contact Us</h3>
-                <div>
+                <div className={styles.bottom}>
                     <form className={styles.form} onSubmit={this.handleSubmit}>
                         <label>
                             Name:
@@ -57,12 +58,13 @@ class contactus extends React.Component {
                         <br/>
                         <input className={styles.button} type="submit" value="Add" />
                     </form>
+                    <div className={styles.letter}>
+                        <p>Site and Technical Questions</p>
+                        <p>Questions about site content, features, technical issues, recipe errors, membership and billing:</p>
+                        <p>xxxxx@xxxx.xxx</p>
+                    <div>
                 </div>
-                <div className={styles.letter}>
-                    <p>Site and Technical Questions</p>
-                    <p>Questions about site content, features, technical issues, recipe errors, membership and billing:</p>
-                    <p>xxxxx@xxxx.xxx</p>
-                <div>
+
                 <p>Our Address</p>
                 <p>xxxxxxxx</p>
                 </div>
